@@ -267,8 +267,7 @@ Displays all Linux groups from
 
 
 
-# output
-# 📸 Sample Output
+# Output
 
 ## Main Menu
 
