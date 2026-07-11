@@ -267,18 +267,227 @@ Displays all Linux groups from
 
 
 
-# 📷 Screenshots
+# output
+# 📸 Sample Output
 
-Add screenshots inside the **screenshots** folder.
+## Main Menu
 
-Example
+```text
+==================================================
+        LINUX OFFICE MANAGEMENT SYSTEM
+==================================================
 
-- Main Menu
-- Add Employee
-- User Creation
-- Password Creation
-- Backup
-- Permission Change
+1. Add Employee Record
+2. View Employee Records
+3. Create Linux User
+4. Set User Password
+5. Create Department (Group)
+6. Add User to Department
+7. Change File Permission
+8. Backup Employee Records
+9. Show Current Directory
+10. List Linux Users
+11. List Linux Groups
+12. Exit
+
+Enter your choice:
+```
+
+---
+
+## 1. Add Employee Record
+
+```text
+Enter your choice: 1
+
+Enter Employee File Name: Snehal
+```
+
+After entering the file name, the Vim editor opens.
+
+Example employee record:
+
+```text
+-----------------------------------------
+Employee ID   : 101
+Name          : Snehal Bharat Late
+Department    : Information Technology
+Designation   : Software Engineer
+Salary        : 25000
+Phone         : 9876543210
+Email         : snehal@example.com
+-----------------------------------------
+```
+
+Save the file using:
+
+```text
+Esc
+:wq
+```
+
+---
+
+## 2. View Employee Record
+
+```text
+Enter your choice: 2
+
+Employee Files
+
+Snehal.txt
+Rahul.txt
+
+Enter file name: Snehal
+```
+
+Output
+
+```text
+-----------------------------------------
+Employee ID   : 101
+Name          : Snehal Bharat Late
+Department    : Information Technology
+Designation   : Software Engineer
+Salary        : 25000
+Phone         : 9876543210
+Email         : snehal@example.com
+-----------------------------------------
+```
+
+---
+
+## 3. Create Linux User
+
+```text
+Enter your choice: 3
+
+Enter Username: rahul
+
+User created successfully.
+```
+
+---
+
+## 4. Set User Password
+
+```text
+Enter your choice: 4
+
+Enter Username: rahul
+
+New password:
+Retype new password:
+passwd: password updated successfully
+```
+
+---
+
+## 5. Create Department (Group)
+
+```text
+Enter your choice: 5
+
+Enter Group Name: Developers
+
+Group created successfully.
+```
+
+---
+
+## 6. Add User to Department
+
+```text
+Enter your choice: 6
+
+Enter Username: rahul
+Enter Group Name: Developers
+
+User added to Developers successfully.
+```
+
+---
+
+## 7. Change File Permission
+
+```text
+Enter your choice: 7
+
+Employee Files
+
+Snehal.txt
+
+Enter File Name: Snehal
+Enter Permission (Example 755): 755
+
+Permission Updated Successfully.
+```
+
+---
+
+## 8. Backup Employee Records
+
+```text
+Enter your choice: 8
+
+Creating Backup...
+
+Backup Created Successfully.
+
+Location:
+Backup/Employees/
+```
+
+---
+
+## 9. Show Current Directory
+
+```text
+Enter your choice: 9
+
+/home/snehal/Linux-Office-Management-System
+```
+
+---
+
+## 10. List Linux Users
+
+```text
+Enter your choice: 10
+
+root
+daemon
+bin
+sys
+rahul
+snehal
+```
+
+---
+
+## 11. List Linux Groups
+
+```text
+Enter your choice: 11
+
+root
+sudo
+users
+developers
+docker
+```
+
+---
+
+## 12. Exit
+
+```text
+Enter your choice: 12
+
+Thank you for using Linux Office Management System.
+Have a Nice Day!
+```
+
 
 
 
